@@ -1,0 +1,21 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.lista{
+    list-style: none;
+}
+
+.lista p{
+    margin: 5px;
+}
+
+#livrosArmazenados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}

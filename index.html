@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Teste</title>
+</head>
+<body>
+    <form id="criarLivro">
+        <h3>METHOD: POST</h3>
+        <input type="text" id="nome" placeholder="Digite aqui o nome do livro"/><br><br>
+        <input type="text" id="editora" placeholder="Digite aqui o nome da editora"/><br><br>
+        <input type="submit"></input>
+    </form>
+    <hr><br>
+   
+    <form id="buscarLivroPorId">
+        <h3>METHOD: GET/ID</h3>
+        <input type="number" id="id" placeholder="Insira o ID"/>
+        <input type="submit"></input>
+    </form>
+    <h3>Livro Selecionado:</h3>
+    <ul id="livroSelecionado">
+        <!-- LIVRO SELECIONADO -->
+    </ul>
+    <hr><br>
+
+    <form id="atualizaLivro">
+        <h3>METHOD: PUT/PUTCH</h3>
+        <input type="number" id="inseriId" /><br><br>
+        <input type="text" id="corrigeNome" /><br><br>
+        <input type="text" id="corrigeEditora" /><br><br>
+        <input type="submit"></input>
+    </form>
+
+    <hr><br>
+
+    <form id="deleteLivroPorId">
+        <h3>METHOD: DELETE/ID</h3>
+        <input type="number" id="idDelete" placeholder="Insira o ID"/>
+        <input type="submit"></input>
+    </form>
+
+    <hr><br>
+    <H3>Carrega lista de Livros</H3>
+    <ul id="livrosArmazenados">
+        <!-- CARREGA LISTA DE LIVROS -->
+    </ul>
+  
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
